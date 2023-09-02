@@ -65,7 +65,7 @@
     display: var(--hs-store-navbar-left-show) !important;
 }
 
-#hs-store-played-titel {
+#hs-store-titel {
     height: 40px !important;
     margin: 5px !important;
     border-radius: 10px !important;
