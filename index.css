@@ -94,7 +94,7 @@
 
 /*Image Expand*/
 .hs-store-image {
-    height: 80px !important;
+    height: 100% !important;
 }
 #hs-store-expanded-image {
     position: relative !important;
