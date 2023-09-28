@@ -35,5 +35,5 @@ function hsstoresearchcontent() {
 function hsstorechangeimage(imgs) {
   var hsstoreexpandedimage = document.getElementById('hs-store-expanded-image');
   hsstoreexpandedimage.src = imgs.src;
-  hsstoreexpandedimage.parentElement.style.display = "block";
+  hsstoreexpandedimage.style.display = "block";
 }
