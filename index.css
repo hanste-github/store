@@ -92,6 +92,9 @@
 }
 
 /*Image Expand*/
+.hs-store-image {
+    height: 80px !important;
+}
 #hs-store-expanded-image {
     position: relative !important;
     display: none;
