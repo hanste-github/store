@@ -51,5 +51,8 @@ function hsstorelink() {
   var link = window.location.href;
   if (link.includes('#hscontent' + hsID)) {
     document.getElementById('hs-store-content').innerHTML = document.getElementById('hscontent' + hsID).innerHTML;
-  }
+  };
+  if (link.includes('#hscontent1')) {
+    document.getElementById('hs-store-content').innerHTML = document.getElementById('hscontent1').innerHTML;
+  };
 }
