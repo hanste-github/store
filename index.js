@@ -37,3 +37,9 @@ function hsstorechangeimage(imgs) {
   hsstoreexpandedimage.src = imgs.src;
   hsstoreexpandedimage.style.display = "block";
 }
+
+// Scroll
+function hsstorescrollright() {
+  var hsstorecontainerscroll = document.getElementById('hs-store-container-scroll-1');
+  hsstorecontainerscroll.scrollLeft += 90;
+}
