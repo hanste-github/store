@@ -95,12 +95,11 @@
 
 /*Image Expand*/
 .hs-store-image {
-    height: auto;
+    height: calc(100% - 0.5rem);
 }
 #hs-store-expanded-image {
-    position: relative !important;
     display: none;
-    width: auto !important;
+    width: 100% !important;
 }
 #hs-store-expanded-image-text {
     background-color: var(--hs-bl-001) !important;
@@ -109,7 +108,7 @@
     position: absolute !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
-    bottom: 20px !important;
+    bottom: 120px !important;
 }
 /**/
 
