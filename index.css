@@ -100,7 +100,7 @@
 #hs-store-expanded-image {
     position: relative !important;
     display: none;
-    width: 100% !important;
+    width: auto !important;
 }
 #hs-store-expanded-image-text {
     background-color: var(--hs-bl-001) !important;
