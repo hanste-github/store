@@ -45,3 +45,11 @@ function hsstorescrollright() {
   var hsstorecontainerscroll = document.getElementById('hs-store-container-scroll-1');
   hsstorecontainerscroll.scrollLeft += 400;
 }
+
+// Link Zusatz
+function hsstorelink() {
+  var link = window.location.href;
+  if (link.includes('#hscontent' + hsID)) {
+    document.getElementById('hs-store-content').innerHTML = document.getElementById('hscontent' + hsID).innerHTML;
+  }
+}
