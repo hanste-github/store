@@ -34,7 +34,9 @@ function hsstoresearchcontent() {
 // App Images
 function hsstorechangeimage(imgs) {
   var hsstoreexpandedimage = document.getElementById('hs-store-expanded-image');
+  var hsstoreexpandedimagetext = document.getElementById('hs-store-expanded-image-text');
   hsstoreexpandedimage.src = imgs.src;
+  hsstoreexpandedimagetext.innerHTML = imgs.alt;
   hsstoreexpandedimage.style.display = "block";
 }
 
