@@ -48,11 +48,14 @@ function hsstorescrollright() {
 
 // Link Zusatz
 function hsstorelink() {
-  var link = window.location.href;
-  if (link.includes('#hscontent' + hsID)) {
-    document.getElementById('hs-store-content').innerHTML = document.getElementById('hscontent' + hsID).innerHTML;
-  };
-  if (link.includes('#hscontent1')) {
-    document.getElementById('hs-store-content').innerHTML = document.getElementById('hscontent1').innerHTML;
-  };
+  var link = window.location.hash;
+  var regex = /#hscontent\d+/; // Überprüft, ob der Link "#hscontent" gefolgt von einer beliebigen Zahl enthält
+  
+  if (regex.test(link)) {
+  var number = link.substring(10); // Extrahiert die Zahl aus dem Link
+  var contentElement = document.getElementById("hs-store-content");
+  var newContent = document.getElementById("hscontent" + number).innerHTML; // Holt den Inhalt des Elements mit der ID "#hscontent" und der entsprechenden Zahl
+
+  contentElement.innerHTML = newContent; // Ersetzt den Inhalt des Elements mit dem neuen Inhalt
+  }
 }
