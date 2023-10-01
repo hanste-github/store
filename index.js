@@ -49,7 +49,7 @@ function hsstorescrollright() {
 // Link Zusatz
 function hsstorelink() {
   var link = window.location.hash;
-  var regex = /#hscontent\d+/; // Überprüft, ob der Link "#hscontent" gefolgt von einer beliebigen Zahl enthält
+  var regex = /#hsstorecontent\d+/; // Überprüft, ob der Link "#hscontent" gefolgt von einer beliebigen Zahl enthält
   
   if (regex.test(link)) {
   var number = link.substring(10); // Extrahiert die Zahl aus dem Link
