@@ -99,7 +99,10 @@
 }
 #hs-store-expanded-image {
     display: none;
-    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 80vh !important;
+    margin-left: 50% !important;
+    transform: translateX(-50%);
 }
 #hs-store-expanded-image-text {
     background-color: var(--hs-bl-001) !important;
