@@ -43,15 +43,5 @@ function hsstorechangeimage(imgs) {
 // Scroll
 function hsstorescrollright() {
   var hsstorecontainerscroll = document.getElementById('hs-store-container-scroll-1');
-  hsstorecontainerscroll.scrollLeft += 400;
-}
-
-// Link Zusatz
-function hsstorelink() {
-  var link = window.location.hash;
-  var regex = /#hsstorecontent\d+/; // Überprüft, ob der Link "#hscontent" gefolgt von einer beliebigen Zahl enthält
-  var number = link.substring(10); // Extrahiert die Zahl aus dem Link
-  var contentElement = document.getElementById("hs-store-content");
-  var newContent = document.getElementById("hscontent" + number).innerHTML; // Holt den Inhalt des Elements mit der ID "#hscontent" und der entsprechenden Zahl
-  contentElement.innerHTML = newContent; // Ersetzt den Inhalt des Elements mit dem neuen Inhalt
+  hsstorecontainerscroll.scrollLeft += 1000;
 }
