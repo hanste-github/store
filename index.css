@@ -100,7 +100,7 @@
 #hs-store-expanded-image {
     display: none;
     max-width: 100% !important;
-    max-height: 80vh !important;
+    max-height: 60vh !important;
     margin-left: 50% !important;
     transform: translateX(-50%);
 }
