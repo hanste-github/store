@@ -108,7 +108,7 @@
     padding: 5px !important;
     line-height: 30px !important;
     animation: hs-store-played-titel-pogressbar-inner 100s infinite alternate;
-};
+}
 
 /*Image Expand*/
 #hs-store-expanded-image {
