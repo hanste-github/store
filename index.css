@@ -86,7 +86,7 @@
     display: var(--hs-store-navbar-left-show) !important;
 }
 
-@-webkit-keyframes hs-store-played-titel-pogressbar-inner {
+@-webkit-keyframes hs-store-played-titel-pogressbar-inner; @keyframes hs-store-played-titel-pogressbar-inner {
     0%  {background-color: var(--hs-bg-001)}
     10%  {background-color: var(--hs-bg-002)}
     18%  {background-color: var(--hs-bg-003)}
