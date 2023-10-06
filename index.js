@@ -1,9 +1,4 @@
-function hschangeContent(hscontentId) {
-    var hscontent = document.getElementById('hs-store-content');
-    var hsnewContent = document.getElementById(hscontentId).innerHTML;
-    hscontent.innerHTML = hsnewContent;
-}
-
+// Search
 document.getElementById("hs-store-search-input").addEventListener("keyup", function(event) {
     if (event.keyCode === 13) { // Überprüfen, ob die Eingabetaste gedrückt wurde
       event.preventDefault(); // Verhindern, dass das Formular gesendet wird
