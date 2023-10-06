@@ -30,15 +30,7 @@
     margin: 65px 10px 70px 10px !important;
     z-index: 1 !important;
     overflow-y: auto !important;
-}
-
-.hs-store-content-app {
-    background-color: var(--hs-bl-001) !important;
-    -webkit-backdrop-filter: blur(3px) !important;
-    backdrop-filter: blur(3px) !important;
-    margin: 65px 10px 70px 10px !important;
-    z-index: 1 !important;
-    overflow-y: auto !important;
+    min-height: calc(100vh - 135px) !important;
 }
 
 .hs-store-search {
