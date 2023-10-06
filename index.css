@@ -86,11 +86,28 @@
     display: var(--hs-store-navbar-left-show) !important;
 }
 
+@-webkit-keyframes hs-store-played-titel-pogressbar-inner {
+    0%  {background-color: var(--hs-bg-001)}
+    10%  {background-color: var(--hs-bg-002)}
+    18%  {background-color: var(--hs-bg-003)}
+    28%  {background-color: var(--hs-bg-004)}
+    36%  {background-color: var(--hs-bg-005)}
+    44%  {background-color: var(--hs-bg-006)}
+    54%  {background-color: var(--hs-bg-007)}
+    64%  {background-color: var(--hs-bg-008)}
+    72%  {background-color: var(--hs-bg-009)}
+    80%  {background-color: var(--hs-bg-010)}
+    90%  {background-color: var(--hs-bg-011)}
+    100%  {background-color: var(--hs-bg-012)}
+}
+
 #hs-store-titel {
     height: 40px !important;
     margin: 5px !important;
     border-radius: 10px !important;
-    background-color: var(--hs-bl-001) !important;
+    padding: 5px !important;
+    line-height: 30px !important;
+    animation: hs-store-played-titel-pogressbar-inner 100s infinite alternate;
 }
 
 /*Image Expand*/
