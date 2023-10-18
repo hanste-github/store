@@ -36,7 +36,7 @@ function hsstorechangeimage(imgs) {
 }
 
 // Scroll
-function hsstorescrollright() {
-  var hsstorecontainerscroll = document.getElementById('hs-store-container-scroll-1');
+function hsstorescrollright(hsstorescrollcontainerID) {
+  var hsstorecontainerscroll = document.getElementById(hsstorescrollcontainerID);
   hsstorecontainerscroll.scrollLeft += 1000;
 }
