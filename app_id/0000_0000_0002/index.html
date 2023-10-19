@@ -162,38 +162,40 @@
     </div>
 
     <!-- Einstellungen -->
-    <div class="offcanvas offcanvas-end blur3" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas offcanvas-end hs-blur-001 hs-h-100" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Einstellungen</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">Einstellungen</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
-            <form id="uploadForm" enctype="multipart/form-data" class="btn-group w-100 mb-2">
-                <input class="btn btn-warning" type="file" id="imageUpload" accept=".jpg, .jpeg, .png">
-                <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
-            </form>
-            <br>
-            <form id="urlForm" class="btn-group w-100">
-                <input class="btn btn-warning" type="text" id="imageUrl" placeholder="Bildadresse eingeben">
-                <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
-            </form>
-            <hr>
-            <div class="btn-group-vertical w-100" role="group" aria-labelledby="bd-theme-text">
-                <button type="button" class="btn btn-light" data-bs-theme-value="light" aria-pressed="false">
-                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#sun-fill"></use></svg>
-                    Light
-                </button>
-                <button type="button" class="btn btn-dark" data-bs-theme-value="dark" aria-pressed="false">
-                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#moon-stars-fill"></use></svg>
-                    Dark
-                </button>
-                <button type="button" class="btn btn-secondary" data-bs-theme-value="auto" aria-pressed="true">
-                    <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#circle-half"></use></svg>
-                    Auto
-                </button>
-            </div>
+          <form id="uploadForm" enctype="multipart/form-data" class="btn-group w-100 mb-2">
+            <input class="btn btn-warning" type="file" id="imageUpload" accept=".jpg, .jpeg, .png">
+            <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
+          </form>
+          <br>
+          <form id="urlForm" class="btn-group w-100">
+              <input class="btn btn-warning" type="text" id="imageUrl" placeholder="Bildadresse eingeben">
+              <button class="btn btn-primary" type="submit"><i class="bi bi-check"></i></button>
+          </form>
+          <hr>
+          <div class="btn-group-vertical w-100" role="group" aria-labelledby="bd-theme-text">
+            <button type="button" class="btn btn-light" data-bs-theme-value="light" aria-pressed="false">
+              <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#sun-fill"></use></svg>
+              Light
+            </button>
+            <button type="button" class="btn btn-dark" data-bs-theme-value="dark" aria-pressed="false">
+              <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#moon-stars-fill"></use></svg>
+              Dark
+            </button>
+            <button type="button" class="btn btn-secondary" data-bs-theme-value="auto" aria-pressed="true">
+              <svg class="bi me-2 theme-icon" style="width: 20px; height: 20px;"><use href="#circle-half"></use></svg>
+              Auto
+            </button>
+          </div>
+          <hr>
+          <button class="btn btn-primary w-100" id="hschangemarginandroundedsize">Abstände ändern</button>
         </div>
-    </div>
+      </div>
     
     <!-- Javascript -->
     <script src="/store/index.js"></script>
