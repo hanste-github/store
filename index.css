@@ -27,9 +27,9 @@
 
 .hs-store-content {
     border-radius: var(--hs-rounded-size) !important;
-    background-color: var(--hs-bl-001) !important;
+    background-color: var(--hs-bl-002) !important;
     -webkit-backdrop-filter: blur(3px) !important;
-    backdrop-filter: blur(3px) !important;
+    backdrop-filter: blur(10px) !important;
     margin: calc(45px + (var(--hs-margin-size) * 2)) var(--hs-margin-size) calc(50px + (var(--hs-margin-size) * 2)) var(--hs-margin-size) !important;
     z-index: 1 !important;
     overflow-y: auto !important;
