@@ -30,10 +30,10 @@
     background-color: var(--hs-bl-001) !important;
     -webkit-backdrop-filter: blur(3px) !important;
     backdrop-filter: blur(3px) !important;
-    margin: calc(55px + var(--hs-margin-size)) var(--hs-margin-size) calc(60px + var(--hs-margin-size)) var(--hs-margin-size) !important;
+    margin: calc(45px + (var(--hs-margin-size) * 2)) var(--hs-margin-size) calc(50px + (var(--hs-margin-size) * 2)) var(--hs-margin-size) !important;
     z-index: 1 !important;
     overflow-y: auto !important;
-    min-height: calc(100vh - 135px) !important;
+    min-height: calc(100vh - 95px - (var(--hs-margin-size) * 6)) !important;
 }
 
 .hs-store-search {
