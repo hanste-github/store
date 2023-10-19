@@ -1,33 +1,36 @@
 .hs-store-navbar-top {
+    border-radius: var(--hs-rounded-size) !important;
     background-color: var(--hs-bl-001) !important;
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    top: 10px !important;
-    left: 10px !important;
-    right: 10px !important;
+    top: var(--hs-margin-size) !important;
+    left: var(--hs-margin-size) !important;
+    right: var(--hs-margin-size) !important;
     height: 45px !important;
     padding: 5px !important;
     z-index: 100 !important;
 }
 
 .hs-store-navbar-bottom {
+    border-radius: var(--hs-rounded-size) !important;
     background-color: var(--hs-bl-001) !important;
     -webkit-backdrop-filter: blur(20px) !important;
     backdrop-filter: blur(20px) !important;
     position: fixed !important;
-    left: 10px !important;
-    right: 10px !important;
-    bottom: 10px !important;
+    left: var(--hs-margin-size) !important;
+    right: var(--hs-margin-size) !important;
+    bottom: var(--hs-margin-size) !important;
     height: 50px !important;
     z-index: 100 !important;
 }
 
 .hs-store-content {
+    border-radius: var(--hs-rounded-size) !important;
     background-color: var(--hs-bl-001) !important;
     -webkit-backdrop-filter: blur(3px) !important;
     backdrop-filter: blur(3px) !important;
-    margin: 65px 10px 70px 10px !important;
+    margin: calc(55px + var(--hs-margin-size)) var(--hs-margin-size) calc(60px + var(--hs-margin-size)) var(--hs-margin-size) !important;
     z-index: 1 !important;
     overflow-y: auto !important;
     min-height: calc(100vh - 135px) !important;
@@ -42,13 +45,9 @@
     transform: translate(-50%) !important;
     margin-left: 50% !important;
 }
-.hs-wiki-search:focus {
+.hs-store-search:focus {
     border: none !important;
     outline: none !important;
-}
-
-.hs-store-navbar-left-show {
-    display: var(--hs-store-navbar-left-show) !important;
 }
 
 @-webkit-keyframes hs-store-played-titel-pogressbar-inner {
@@ -93,18 +92,3 @@
     bottom: 120px !important;
 }
 /**/
-
-/* Seitenbreite größer als 1001px */
-@media (min-width: 1001px) {
-    :root {
-        --hs-store-navbar-left-width: 200px !important;
-    }
-}
-
-/* Seitenbreite kleiner als 1000px */
-@media (max-width: 1000px) {
-    :root {
-        --hs-store-navbar-left-width: 50px !important;
-        --hs-store-navbar-left-show: none !important;
-    }
-}
